@@ -12,6 +12,9 @@
 /*------ header section styles ------*/
 
 .container {
+    margin: auto;
+    width: 1920px;
+    height: 1322px;
     justify-content: center;
     background-color: rgba(255, 144, 14, 0.1);
 
@@ -38,16 +41,16 @@ nav ul li {
     color: #424242;
 }
 
-nav ul li a{
+nav ul li a {
     color: #424242;
-    padding: 10px 30px;
+    padding: 5px 20px;
     text-decoration: none;
 }
 
 nav ul li a:hover {
     color: #ea1538;
     border: 1px solid #ea1538;
-    transition: .3s;
+    transform-origin: 0;
 }
 
 .fa-solid {
@@ -82,6 +85,7 @@ nav ul li a:hover {
     color: #727272;
     padding-top: 30px;
 }
+
 .btn-primary {
     color: #ffffff;
     background: #FF900E;
@@ -93,12 +97,86 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
 }
-.image{
+
+/* .btn-primary:hover{
+    border: 1px solid skyblue;
+} */
+.image {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 32px;
 }
-.image, img{
+
+.image img {
     padding: 50px 240px 30px 240px;
+}
+
+/*------ Main section styles ------*/
+.quick-list-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+}
+
+.team-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.team-images img {
+    width: 342px;
+    height: 342px;
+}
+
+.list-container {
+    margin-left: 73px;
+    width: 537px;
+    height: 304px;
+}
+
+.list-title {
+    font-size: 45px;
+    font-weight: 400px;
+    color: #727272;
+    margin-bottom: 25px;
+}
+
+.of-our {
+    font-size: 45px;
+    font-weight: 700px;
+    color: #131313;
+}
+
+.features {
+    font-weight: 700;
+    font-size: 45px;
+    color: #f58300;
+}
+
+.list-details {
+    font-weight: 400px;
+    font-size: 17px;
+    color: #5c5b5b;
+    margin-bottom: 35px;
+}
+
+/*------ Experience section styles ------*/
+.experience-section {
+    display: flex;
+    justify-content: center;
+}
+
+.experience-container {
+    width: 586px;
+    height: 982px;
+}
+
+.architect-info{
+    width: 800px;
+    height: 1059px;
 }
