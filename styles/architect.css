@@ -30,7 +30,7 @@
 .nav-title {
     font-size: 45px;
     font-weight: 700px;
-    color: #131313;
+    color: #080707;
 }
 
 nav ul li {
@@ -42,7 +42,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #424242;
+    color: #2e2d2d;
     padding: 5px 20px;
     text-decoration: none;
 }
@@ -75,14 +75,14 @@ nav ul li a:hover {
 .banner-title {
     font-size: 64px;
     font-weight: 700px;
-    color: #131313;
+    color: #0a0a0a;
     justify-content: center;
 }
 
 .banner-details {
     font-weight: 400px;
     font-size: 16px;
-    color: #727272;
+    color: #534e4e;
     padding-top: 30px;
 }
 
@@ -142,14 +142,14 @@ nav ul li a:hover {
 .list-title {
     font-size: 45px;
     font-weight: 400px;
-    color: #727272;
+    color: #4f4d4d;
     margin-bottom: 25px;
 }
 
 .of-our {
     font-size: 45px;
     font-weight: 700px;
-    color: #131313;
+    color: #100f0f;
 }
 
 .features {
@@ -161,22 +161,88 @@ nav ul li a:hover {
 .list-details {
     font-weight: 400px;
     font-size: 17px;
-    color: #5c5b5b;
+    color: #3b3a3a;
     margin-bottom: 35px;
 }
 
 /*------ Experience section styles ------*/
-.experience-section {
+.architect-section {
     display: flex;
     justify-content: center;
+    margin: 130px 240px 50px 240px;
+    gap: 146px;
 }
 
-.experience-container {
+.architect-container {
     width: 586px;
     height: 982px;
 }
 
-.architect-info{
-    width: 800px;
-    height: 1059px;
+.container-title {
+    width: 468px;
+    height: 106px;
+    font-size: 45px;
+    font-weight: 700px;
+    color: #000000;
+    border-left: 5px solid rgb(251, 84, 23);
+    padding-left: 21px;
+}
+
+.container-detail {
+    font-size: 17px;
+    font-weight: 400px;
+    color: #605f5f;
+    margin: 30px 0px 35px 0px;
+}
+
+.architect-info {
+    width: 586px;
+    height: 171px;
+    padding: 30px 42px 30px 30px;
+    justify-content: center;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.architect-title {
+    font-size: 22px;
+    font-weight: 600px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.architect-details {
+    font-size: 18px;
+    font-weight: 400px;
+    color: #4a4747;
+}
+
+.architect-image {
+    width: 708px;
+    height: 982px;
+}
+
+.experience-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -175px;
+    padding-left: 180px;
+}
+.btn-secondary {
+    color: white;
+    width: 330px;
+    height: 190px;
+    font-size: 65px;
+    font-weight: 800px;
+    background: #FF900E;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-secondary span {
+    color: white;
+    font-size: 25px;
+    font-weight: 500px;
 }
